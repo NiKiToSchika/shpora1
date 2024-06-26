@@ -1,0 +1,260 @@
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+  }
+
+  .box {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item5{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item6{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item7{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item8{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item9{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    background-image: url('https://img.freepik.com/free-photo/3d-fox-cartoon-illustration_23-2151395236.jpg?size=338&ext=jpg&ga=GA1.1.1788614524.1719014400&semt=ais_user');
+    background-size: cover;
+    background-position: center;
+}
+
+.item10{
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item11{
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item12{
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+    animation: color 3s infinite;
+}
+
+.item13{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: aqua;
+}
+
+.item14{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: aqua;
+}
+
+.item15{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: aqua;
+}
+
+.item16{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: aqua;
+}
+
+.item17{
+    grid-column-start: 4;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: aqua;
+}
+
+.item18{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: aqua;
+}
+
+.item19{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: aqua;
+}
+
+.item20{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: aqua;
+}
+
+.footer {
+    background-color: #0984f7;
+    padding: 20px;
+    margin-top:30px;
+    text-align: center;
+  }
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+.footer{
+    max-width: 880px;
+}
+
+@keyframes color {
+    0%{
+        background-color: brown;
+    }
+    50%{
+        background-color: rgb(11, 49, 218);
+    }
+    100%{
+        background-color: rgb(226, 17, 198);
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        height: auto;
+        width: 100%;
+    }
+    .box {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        height: auto;
+        width: 100%;
+    }
+    .box {
+        font-size: 18px;
+        padding: 15px;
+    }
+}
+

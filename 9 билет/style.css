@@ -1,0 +1,194 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    display: flex ;
+    flex-direction: column;
+    min-width: 60px;
+    max-height: 50px;
+}
+
+.box2{
+    display: flex ;
+    flex-direction: column;
+    min-width: 80px;
+    max-height: 50px;
+    
+}
+
+.item3{
+    background-color: red;
+    min-width: 80px;
+    min-height: 80px;
+}
+
+
+.item1{
+    margin-top: 10px;
+    background-color: blue;
+    max-width: 50px;
+    min-height: 50px;
+}
+
+.item2{
+    margin-right: 10px;
+    background-color: red;
+    max-width: 50px;
+    max-height: 30px;
+}
+
+.box-collum1{
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    max-height: 90px;
+}
+
+.box3{
+    margin-left: 10px;
+    background-color: rebeccapurple;
+    min-width: 150px;
+    min-height: 20px;
+}
+
+.box4{
+    margin-left: 10px;
+    margin-top: 10px;
+    min-height: 150px;
+    background-color: violet;
+
+}
+
+.box-collum2{
+    display: flex;
+    flex-direction: column;
+}
+
+.box5{
+    background-color: chocolate;
+    max-width: 140px;
+    min-height: 90px;
+}
+
+.box-collum3{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box6{
+    background-color: darkblue;
+    min-width: 250px;
+    min-height: 50px;
+}
+
+.box7{
+    margin-top: 10px;
+    background-color: burlywood;
+    min-height: 250px;
+}
+
+.box-row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.box8{
+    margin-top: 10px;
+    background-color: chartreuse;
+    min-height: 120px;
+    min-width: 50px;
+}
+
+.box9{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: darkgoldenrod;
+    min-width: 240px;
+}
+
+.box-collum4{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box10{
+    background-color: crimson;
+    min-width: 350px;
+    min-height: 100px;
+    animation: color 3s infinite;
+}
+
+.box11{
+    margin-top: 10px;
+    background-color: darkkhaki;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://img.freepik.com/free-photo/3d-fox-cartoon-illustration_23-2151395236.jpg?size=338&ext=jpg&ga=GA1.1.1788614524.1719014400&semt=ais_user');
+
+}
+
+.box12{
+    background-color: darkgreen;
+    min-width: 150px;
+    min-height: 190px;
+
+}
+
+.box-row2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box13{
+    margin-left: 10px;
+    background-color: darkgreen;
+    min-width: 400px;
+    min-height: 190px;
+
+}
+
+@keyframes color{
+    0%{
+      background-color: orange;
+    }
+    50%{
+      background-color: blue;
+    }
+    100%{
+      background-color: rgb(0, 255, 21);
+    }
+  }
+
+  .footer {
+    background-color: #0984f7;
+    padding: 20px;
+    margin-top:30px;
+    text-align: center;
+  }
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+.footer{
+    max-width: 880px;
+}
